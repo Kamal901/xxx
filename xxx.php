@@ -19,9 +19,6 @@ $biru";
 function id($sign,$data,$body,$jumlah,$wait) {
 	$x = 0; 
 	while($x < $jumlah) {
-
-	$rand 	= rand(1,999999999999999999999);
-	$String = String (0123456789abcdefghijklmnopqrstuvwxyz!@#$%^&*()~`);
     $ch 	= curl_init();
 	curl_setopt($ch, CURLOPT_URL, "http://api2.yogopro.com/api/reward/watch");
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
